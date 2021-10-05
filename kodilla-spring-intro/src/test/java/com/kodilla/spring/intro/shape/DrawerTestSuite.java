@@ -42,6 +42,7 @@ public class DrawerTestSuite {
         String result = drawer.doDrawing();
 
         //Then
+
         assertEquals("This is a triangle", result);
     }
 

@@ -7,6 +7,7 @@ package com.kodilla.spring.intro.shape;
 //        System.out.println("This is a circle");
 //    }
 //}
+
 public class Circle implements Shape {
     @Override
     public String draw() {
