@@ -38,6 +38,7 @@ public class DrawerTestSuite {
         Triangle triangle = new Triangle();
 
         //When
+
         Drawer drawer = new Drawer(triangle);
         String result = drawer.doDrawing();
 
