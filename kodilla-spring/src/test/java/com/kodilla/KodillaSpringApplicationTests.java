@@ -65,7 +65,7 @@ class KodillaSpringApplicationTests {
     void testTriangleLoadedIntoContainer() {
         //Given
         ApplicationContext context =
-                new AnnotationConfigApplicationContext("com.kodilla");
+                new AnnotationConfigApplicationContext("com.kodilla.spring");
         Shape shape = (Shape) context.getBean("triangle");
 
         //When

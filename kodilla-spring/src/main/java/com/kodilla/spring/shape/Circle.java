@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
-//@Scope("Singleton")
+//@Scope("")
 public class Circle implements Shape {
     @Override
     public String getShapeName(){
